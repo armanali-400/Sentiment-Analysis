@@ -1,0 +1,25 @@
+# Ignore Python Virtual Environment
+myenv/
+venv/
+
+# Ignore unnecessary files
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignore system-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore large datasets or unnecessary files
+*.csv
+*.xlsx
+*.zip
+*.tar.gz
+
+# Ignore Streamlit cache (if any)
+.streamlit/
